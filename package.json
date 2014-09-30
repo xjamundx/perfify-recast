@@ -1,0 +1,14 @@
+{
+  "name": "perfify",
+  "version": "0.0.0",
+  "description": "AST modification demo to improve perf",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd tests;node .;cd .."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "recast": "^0.7.2"
+  }
+}
