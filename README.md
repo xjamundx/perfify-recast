@@ -4,7 +4,8 @@ A simple recast demo that tries to improve performance
 Will transform `.filter().map()` into a plain old for-loop to improve performance without sacrificing readability.
 
 Given:
-```
+
+```javascript
 var a = [1, 2, 3];
 var b = a.filter(function(n) {
 	return n > 1;
@@ -16,7 +17,7 @@ var b = a.filter(function(n) {
 
 Should create:
 
-```
+```javascript
 var a = [1, 2, 3];
 var b = [];
 for (var i = 0; i < a.length; i++) {
